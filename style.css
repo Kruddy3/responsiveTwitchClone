@@ -23,32 +23,86 @@ html, body {
 
 .columns {
   height: 100%;
+  margin-top: 0;
+  margin-right: -5px;
 }
-
+.column{
+  padding: 0;
+}
 #leftCol{
   height: 100%;
   background-color: red;
 }
 
-.is-6{
+.column.is-6{
   height: 100%;
   background-color: teal;
   overflow: auto;
   -ms-overflow-style: none;  // IE 10+
    overflow: -moz-scrollbars-none;  // Firefox
 }
-.is-6::-webkit-scrollbar{
+.column.is-6::-webkit-scrollbar{
    display: none;  // Safari and Chrome
 }
-
-.is-4{
+.card{
+  background-color: #201c2b;
+  color: lightgrey;
+}
+.card{
+  margin: 5px 5px  5px  5px;
+}
+#middleContent{
+  /*margin-top: 10px;*/
+}
+#streamPreview{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.recStreamDetail{
+  margin: 8px;
+  position: inline;
+}
+.column.is-4{
   height: 100%;
   background-color: green;
   -ms-overflow-style: none;  // IE 10+
    overflow: -moz-scrollbars-none;  // Firefox
 }
-.is-4::-webkit-scrollbar{
+.column.is-4::-webkit-scrollbar{
    display: none;  // Safari and Chrome
+}
+#streamerTextPost{
+  color: lightgrey;
+  margin: 0;
+}
+
+
+.column.is-6 .card{
+  margin-right: 0.75rem;
+}
+#streamerImage{
+  max-width: 40px;
+  max-height: 40px;
+}
+.circletag {
+    width: 24px;
+    height: 24px;
+    background: #E6E7ED;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-image: url(no.png);
+    background-position:50% 50%;
+    margin: 5px 5px;
+    background-repeat:no-repeat;
+}
+.media-content{
+  display: inline-block;
+}
+.reaction {
+  max-width: 24px;
+  max-height: 24px;
+  border-radius: 50%;
 }
 /*
 TWO CONTENT COLUMNS WILL BE STICKY
