@@ -1,0 +1,55 @@
+html, body {
+  background-color: #201c2b;
+  /*box-sizing: border-box;*/
+}
+
+#navbarContainer {
+  /*position: fixed;*/
+  height: 52px;
+  width: 100%;
+  z-index: 1;
+  background-color: orange;
+}
+
+.contentBox{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  top: 52px;
+  margin: 0;
+  /*border: 3px solid #73AD21;*/
+}
+
+.columns {
+  height: 100%;
+}
+
+#leftCol{
+  height: 100%;
+  background-color: red;
+}
+
+.is-6{
+  height: 100%;
+  background-color: teal;
+  overflow: auto;
+  -ms-overflow-style: none;  // IE 10+
+   overflow: -moz-scrollbars-none;  // Firefox
+}
+.is-6::-webkit-scrollbar{
+   display: none;  // Safari and Chrome
+}
+
+.is-4{
+  height: 100%;
+  background-color: green;
+  -ms-overflow-style: none;  // IE 10+
+   overflow: -moz-scrollbars-none;  // Firefox
+}
+.is-4::-webkit-scrollbar{
+   display: none;  // Safari and Chrome
+}
+/*
+TWO CONTENT COLUMNS WILL BE STICKY
+*/
