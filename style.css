@@ -1,8 +1,12 @@
 html, body {
   background-color: #201c2b;
+  -ms-overflow-style: none;  // IE 10+
+   overflow: -moz-scrollbars-none;  // Firefox
   /*box-sizing: border-box;*/
 }
-
+::-webkit-scrollbar{
+   display: none;  // Safari and Chrome
+}
 .follow{
   position: absolute;
   right: 5px;
@@ -100,6 +104,11 @@ button{
   max-width: 40px;
   max-height: 40px;
 }
+#wrapper{
+  max-width:100%;
+  padding:50px 75px 50px 45px;
+  position:relative;
+}
 .circletag {
     width: 24px;
     height: 24px;
@@ -122,6 +131,12 @@ button{
   max-height: 24px;
   border-radius: 50%;
 }
-/*
-TWO CONTENT COLUMNS WILL BE STICKY
-*/
+#streamRecPreview{
+  padding: 0;
+  height: 200px;
+}
+.stream-options{
+  overflow: scroll;
+  height 100%
+}
+}
