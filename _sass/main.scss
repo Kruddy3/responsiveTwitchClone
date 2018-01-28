@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+ 
+
+$body-background-color: #17141f;
+$card-background-color: #201c2b;
+$card-color: #dad8de;
+$title-color: #dad8de;
+$subtitle-color: #dad8de;
+$navbar-item-color: #dad8de;
+$navbar-background-color: #3a2e5b;
+$media-content-color: #dad8de;
+
+#input{
+  background-color: #0e0c13;
+  border: 1px solid #392e5c;
+  color: #dad8de;
+}
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+
+@import "../node_modules/bulma/bulma";
