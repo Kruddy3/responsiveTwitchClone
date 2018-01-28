@@ -33,24 +33,17 @@ html, body {
   height: 100%;
   background-color: red;
 }
+#leftColMargin{
+  margin: 0;
+}
 
-.column.is-6{
-  height: 100%;
-  background-color: teal;
-  overflow: auto;
-  -ms-overflow-style: none;  // IE 10+
-   overflow: -moz-scrollbars-none;  // Firefox
-}
-.column.is-6::-webkit-scrollbar{
-   display: none;  // Safari and Chrome
-}
+
 .card{
   background-color: #201c2b;
   color: lightgrey;
-}
-.card{
   margin: 5px 5px  5px  5px;
 }
+
 #middleContent{
   /*margin-top: 10px;*/
 }
@@ -66,10 +59,21 @@ html, body {
 .column.is-4{
   height: 100%;
   background-color: green;
+  overflow: auto;
   -ms-overflow-style: none;  // IE 10+
    overflow: -moz-scrollbars-none;  // Firefox
 }
 .column.is-4::-webkit-scrollbar{
+   display: none;  // Safari and Chrome
+}
+.column.is-6{
+  height: 100%;
+  background-color: teal;
+  overflow: auto;
+  -ms-overflow-style: none;  // IE 10+
+   overflow: -moz-scrollbars-none;  // Firefox
+}
+.column.is-6::-webkit-scrollbar{
    display: none;  // Safari and Chrome
 }
 #streamerTextPost{
@@ -95,6 +99,9 @@ html, body {
     background-position:50% 50%;
     margin: 5px 5px;
     background-repeat:no-repeat;
+}
+#reactionCount{
+  margin-bottom: 50px;
 }
 .media-content{
   display: inline-block;
