@@ -3,6 +3,17 @@ html, body {
   /*box-sizing: border-box;*/
 }
 
+.follow{
+  position: absolute;
+  right: 5px;
+}
+button{
+  background-color: purple;
+  border: none;
+  color: white;
+}
+
+
 #navbarContainer {
   /*position: fixed;*/
   height: 52px;
