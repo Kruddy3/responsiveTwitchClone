@@ -16,7 +16,7 @@ $pink: #ff8080;
 $pink-invert: #fff;
 // Update the sans-serif font family
 $family-sans-serif: "Helvetica", "Arial", sans-serif;
- 
+
 
 $body-background-color: #17141f;
 $card-background-color: #201c2b;
@@ -32,7 +32,16 @@ $media-content-color: #dad8de;
   border: 1px solid #392e5c;
   color: #dad8de;
 }
-
+button{
+  background-color: #3a2e5b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 // 3. Set the derived variables
 // Use the new pink as the primary color
 $primary: $pink;

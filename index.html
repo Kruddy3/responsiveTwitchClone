@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Twotch</title>
+      <title>Twitch Clone</title>
       <link rel="stylesheet" href="./css/main.css">
       <link rel="stylesheet" href="./style.css">
       <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
@@ -36,7 +36,7 @@
               </div>
               <div class="navbar-item">
                  <p class="control">
-                    <input class="input" id="input" type="text" placeholder="Search Twotch">
+                    <input class="input" id="input" type="text" placeholder="Search Twitch Clone">
                  </p>
                </div>
              </div>
@@ -47,15 +47,16 @@
       <div class="contentBox">
         <div class="columns is-mobile">
           <div class="column is-2 is-one-quarter-mobile" id="leftCol">
-            <div class="card" id="leftColMargin">
-              <div class="card-content">
-                <div class="subtitle">
+            <!-- <div class="card" id="streamerImage" id="leftColMargin"> -->
+              <!-- <div class="card-content"> -->
+                <img class="streamerLeftNavImage" src="https://static-cdn.jtvnw.net/jtv_user_pictures/3973e918fe7cc8c8-profile_image-70x70.png" alt="">
+                <div class="subtitle posterName">
                   asdfasdfasdfafsdfas
                 </div>
-              </div>
-            </div>
+              <!-- </div> -->
+            <!-- </div> -->
           </div>
-          <div class="column is-10">
+          <div class="column">
             <div id ="twoContContainer" class="columns">
 
           <div id="leftCont" class="column is-5 linked-scrollbar-fixed">
@@ -120,7 +121,7 @@
               <img id="streamerImage" class="recStreamDetail" src="https://static-cdn.jtvnw.net/jtv_user_pictures/cutedog_-profile_image-72976cbe312ba0af-70x70.png" alt="">
               <div class="media-content">
                 <div class="follow">
-                  <button class"followButn" type="button" name="button">Follow</button>
+                  <button type="button" name="button" id"followbutn" >Follow</button>
                 </div>
                 <p class="title is-5" id="streamerTextPost">Streamer Name</p>
                 <p class="title is-5" id="streamerTextPost">Stream Title</p>
@@ -133,31 +134,24 @@
             </div>
 
           <div class="card" id="streamRecPreview">
-            <div class="card-content" >
-                   <ul id="content">
-                     <li class="cardSide">
-                         <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                     </li>
-                     <li class="cardSide">
-                         <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                     </li>
-                     <li class="cardSide">
-                         <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                     </li>
-                     <li class="cardSide">
-                         <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                     </li>
-                     <li class="cardSide">
-                         <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                     </li>
-                     <li class="cardSide">
-                         <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                     </li>
-                   </ul>
-
+              <div class="columns is-mobile is-3 ">
+                <div class="column streamSlideshow" >
+                  <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
+                </div>
+                <div class="column streamSlideshow">
+                  <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
+                </div>
+                <div class="column streamSlideshow">
+                  <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
+                </div>
+                <div class="column streamSlideshow">
+                  <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
+                </div>
+                <div class="column streamSlideshow">
+                  <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
 
             <!-- follower posts -->
           </div>

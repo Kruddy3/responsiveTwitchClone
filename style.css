@@ -1,9 +1,25 @@
-@media only screen and (max-width: 500px) {
-    .title {
-        background-color: lightblue;
+@media only screen and (max-width: 1200px) {
+    #leftCol {
+        width: 49px;
+    }
+    .posterName{
+      display: none;
     }
 }
-
+@media only screen and (min-width: 1201px) {
+    #leftCol {
+        width: 239px;
+    }
+}
+#leftCol{
+  height: 100%;
+}
+.streamerLeftNavImage{
+    float: left;
+    display: inline;
+    width: 40;
+    height: 40px;
+}
 html, body {
   -ms-overflow-style: none;  // IE 10+
    overflow: -moz-scrollbars-none;  // Firefox
@@ -50,9 +66,7 @@ button{
 .column{
   padding: 0;
 }
-#leftCol{
-  height: 100%;
-}
+
 #leftColMargin{
   margin: 0;
 }
@@ -148,13 +162,33 @@ button{
 #reactionCount{
   margin-bottom: 50px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.streamSlideshow{
+  margin-left: 5px;
+}
+/*.listWrapper{
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+li img {
+      width: 19%;
+    display: inline-block;
+}*/
 .cardSide{
-  height: 100%;
-  display: inline-block;
+  display: inline;
 }
 .media-content{
   display: inline-block;
 }
+
 .reaction {
   max-width: 24px;
   max-height: 24px;
@@ -162,7 +196,6 @@ button{
 }
 #streamRecPreview{
   padding: 0;
-  height: 200px;
 }
 .stream-options{
   overflow: scroll;
