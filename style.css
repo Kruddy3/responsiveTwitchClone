@@ -14,16 +14,20 @@
 #leftCol{
   height: 100%;
 }
+.posterName{
+  overflow: hidden;
+}
+
 .streamerLeftNavImage{
     float: left;
     display: inline;
     width: 40;
     height: 40px;
 }
+
 html, body {
   -ms-overflow-style: none;  // IE 10+
    overflow: -moz-scrollbars-none;  // Firefox
-  /*box-sizing: border-box;*/
 }
 ::-webkit-scrollbar{
    display: none;  // Safari and Chrome
@@ -32,17 +36,12 @@ html, body {
   position: absolute;
   right: 5px;
 }
-button{
-  border: none;
-}
-
-
 #navbarContainer {
   /*position: fixed;*/
   height: 52px;
   width: 100%;
-  z-index: 1;
 }
+
 
 .contentBox{
   position: fixed;
@@ -51,7 +50,6 @@ button{
   width: 100%;
   top: 52px;
   margin: 0;
-  /*border: 3px solid #73AD21;*/
 }
 
 .columns {
@@ -62,16 +60,11 @@ button{
 }
 #twoContContainer{
   margin-right: 0;
+  overflow: auto;
 }
 .column{
   padding: 0;
 }
-
-#leftColMargin{
-  margin: 0;
-}
-
-
 .card{
   margin: 5px 5px  5px  5px;
 }
@@ -79,49 +72,36 @@ button{
   overflow: auto;
   height: 100%;
 }
-#content{
-  overflow: hidden;
-  height: 100%;
-}
-#middleContent{
-  /*margin-top: 10px;*/
-}
 #streamPreview{
-  width: 100%;
-  margin: 0;
   padding: 0;
 }
 .recStreamDetail{
   margin: 8px;
-  position: inline;
 }
 .column.is-10{
   max-width: 100%;
-  overflow-x: hidden;
   overflow: scroll;
 }
-.column.is-5{
-  overflow-x: hidden;
-  /*height: 100%;
-  overflow: auto;
-  -ms-overflow-style: none;  // IE 10+
-   overflow: -moz-scrollbars-none;  // Firefox*/
-}
+
+
+/*need to test if these are still needed*/
 .column.is-5::-webkit-scrollbar{
    display: none;  // Safari and Chrome
 }
 .column.is-7{
-  height: 100%;
-  overflow: auto;
   -ms-overflow-style: none;  // IE 10+
    overflow: -moz-scrollbars-none;  // Firefox
 }
 .column.is-7::-webkit-scrollbar{
    display: none;  // Safari and Chrome
 }
+/*end*/
+
+
 #streamerTextPost{
   margin: 0;
 }
+
 .column.is-2{
   border-right-style: solid;
   border-right-color: #3a2e5b;
@@ -136,7 +116,7 @@ button{
 .input::placeholder {
   color: #dad8de;
 }
-.column.is-6 .card{
+.column.is-7 .card{
   margin-right: 0.75rem;
 }
 #streamerImage{
@@ -154,37 +134,15 @@ button{
     background: #E6E7ED;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
-    background-image: url(no.png);
     background-position:50% 50%;
     margin: 5px 5px;
     background-repeat:no-repeat;
 }
-#reactionCount{
-  margin-bottom: 50px;
-}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
 .streamSlideshow{
   margin-left: 5px;
 }
-/*.listWrapper{
-  width: 20%;
-  margin: 0;
-  padding: 0;
-  display: inline;
-}
-li img {
-      width: 19%;
-    display: inline-block;
-}*/
-.cardSide{
-  display: inline;
-}
+
 .media-content{
   display: inline-block;
 }
@@ -193,11 +151,4 @@ li img {
   max-width: 24px;
   max-height: 24px;
   border-radius: 50%;
-}
-#streamRecPreview{
-  padding: 0;
-}
-.stream-options{
-  overflow: scroll;
-  height 100%
 }
