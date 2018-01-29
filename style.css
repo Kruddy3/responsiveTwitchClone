@@ -1,3 +1,9 @@
+@media only screen and (max-width: 500px) {
+    .title {
+        background-color: lightblue;
+    }
+}
+
 html, body {
   -ms-overflow-style: none;  // IE 10+
    overflow: -moz-scrollbars-none;  // Firefox
@@ -36,6 +42,10 @@ button{
   height: 100%;
   margin-top: 0;
   margin-right: -5px;
+  margin-left: 0;
+}
+#twoContContainer{
+  margin-right: 0;
 }
 .column{
   padding: 0;
@@ -71,22 +81,28 @@ button{
   margin: 8px;
   position: inline;
 }
-.column.is-4{
-  height: 100%;
+.column.is-10{
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow: scroll;
+}
+.column.is-5{
+  overflow-x: hidden;
+  /*height: 100%;
   overflow: auto;
   -ms-overflow-style: none;  // IE 10+
-   overflow: -moz-scrollbars-none;  // Firefox
+   overflow: -moz-scrollbars-none;  // Firefox*/
 }
-.column.is-4::-webkit-scrollbar{
+.column.is-5::-webkit-scrollbar{
    display: none;  // Safari and Chrome
 }
-.column.is-6{
+.column.is-7{
   height: 100%;
   overflow: auto;
   -ms-overflow-style: none;  // IE 10+
    overflow: -moz-scrollbars-none;  // Firefox
 }
-.column.is-6::-webkit-scrollbar{
+.column.is-7::-webkit-scrollbar{
    display: none;  // Safari and Chrome
 }
 #streamerTextPost{
