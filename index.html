@@ -8,158 +8,147 @@
       <link rel="stylesheet" href="./style.css">
       <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script type="text/javascript" src="./index.js">
-
-      </script>
+      <script type="text/javascript" src="./index.js"></script>
    </head>
    <body>
       <!-- start of top nav bar -->
       <div class="navbarContainer" id="navbarContainer">
-        <div class="navbar" id="navbarContainer">
-
-           <div class="navbar-brand" id="navbarContainer">
-              <div class="navbar-item">
-                 <img src="https://vignette.wikia.nocookie.net/logopedia/images/2/26/Twitch_logo.svg/revision/latest?cb=20140727180649" alt="">
-              </div>
-              <div class="navbar-item">
-                 <h2>Following</h2>
-              </div>
-              <div class="navbar-item">
-                 <h2>Browse</h2>
-              </div>
-              <div class="navbar-item">
-                 <h2>Get Desktop</h2>
-              </div>
-              <div class="navbar-item">
-                 <h2>Store</h2>
-              </div>
-              <div class="navbar-item">
-                 <p class="control">
-                    <input class="input" id="input" type="text" placeholder="Search Twitch Clone">
-                 </p>
+         <div class="navbar" id="navbarContainer">
+            <div class="navbar-brand" id="navbarContainer">
+               <div class="navbar-item">
+                  <img src="https://vignette.wikia.nocookie.net/logopedia/images/2/26/Twitch_logo.svg/revision/latest?cb=20140727180649" alt="">
                </div>
-             </div>
-           </div>
+               <div class="navbar-item">
+                  <h2>Following</h2>
+               </div>
+               <div class="navbar-item">
+                  <h2>Browse</h2>
+               </div>
+               <div class="navbar-item">
+                  <h2>Get Desktop</h2>
+               </div>
+               <div class="navbar-item">
+                  <h2>Store</h2>
+               </div>
+               <div class="navbar-item">
+                  <p class="control">
+                     <input class="input" id="input" type="text" placeholder="Search Twitch Clone">
+                  </p>
+               </div>
+            </div>
+         </div>
       </div>
       <!-- end of top nav bar -->
-      <!-- side nav bar -->
+      <!-- content wrapper that holds everything besides top nav -->
       <div class="contentBox">
-        <div class="columns is-mobile">
-          <div class="column is-2 is-one-quarter-mobile" id="leftCol">
-            <!-- <div class="card" id="streamerImage" id="leftColMargin"> -->
-              <!-- <div class="card-content"> -->
-                <img class="streamerLeftNavImage" src="https://static-cdn.jtvnw.net/jtv_user_pictures/3973e918fe7cc8c8-profile_image-70x70.png" alt="">
-                <div class="subtitle posterName">
-                  Streamer placeholder Name
-                </div>
-              <!-- </div> -->
-            <!-- </div> -->
-          </div>
-          <div class="column">
-        <div id ="twoContContainer" class="columns">
-
-          <div id="leftCont" class="column is-5 linked-scrollbar-fixed">
-            <div id="middleContent" class="card">
-              <header class="card-header">
-                <div class="card-header-title" >
-                  <img id="streamerImage" src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300" alt="">
-                  <div class="media-content">
-                    <p class="title is-7" id="streamerTextPost">Streamer Name</p>
-                    <p class="subtitle is-6" id="streamerTextPost">5 days ago</p>
+      <div class="columns is-mobile">
+         <!-- left side nav bar -->
+         <div class="column is-2 is-one-quarter-mobile" id="leftCol">
+            <!-- streamer info on table and below only the image will show -->
+            <img class="streamerLeftNavImage" src="https://static-cdn.jtvnw.net/jtv_user_pictures/3973e918fe7cc8c8-profile_image-70x70.png" alt="">
+            <div class="subtitle posterName">
+               Streamer placeholder Name
+            </div>
+         </div>
+         <!-- this column takes up the remainding space that the side nav isnt -->
+         <div class="column">
+            <!-- within the column there will be two content columns -->
+            <div id ="twoContContainer" class="columns">
+               <div id="leftCont" class="column is-5 linked-scrollbar-fixed">
+                  <div id="middleContent" class="card">
+                     <header class="card-header">
+                        <div class="card-header-title" >
+                           <!-- streamer image, name, and date posted -->
+                           <img id="streamerImage" src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300" alt="">
+                           <div class="media-content">
+                              <p class="title is-7" id="streamerTextPost">Streamer Name</p>
+                              <p class="subtitle is-6" id="streamerTextPost">5 days ago</p>
+                           </div>
+                        </div>
+                     </header>
+                     <!-- streamer text post -->
+                     <div class="card-content">
+                        <div class="subtitle" id="streamerTextPost">
+                           Reddit: Лучшее за начало 2018 года
+                        </div>
+                     </div>
+                     <!-- users reactions -->
+                     <img class="circletag" src="https://i.imgur.com/Hawb3it.png" class="reaction">
+                     <img class="circletag" src="https://pbs.twimg.com/media/DNpMJktWsAArjGS.png" class="reaction">
+                     <img class="circletag" src="http://i0.kym-cdn.com/entries/icons/original/000/000/142/feelsgoodman.png" class="reaction">
+                     <span id= "reactionCount"> 143</span>
                   </div>
-
-                </div>
-              </header>
-
-              <div class="card-content">
-                <div class="subtitle" id="streamerTextPost">
-                  Reddit: Лучшее за начало 2018 года
-                </div>
-              </div>
-                <img class="circletag" src="https://i.imgur.com/Hawb3it.png" class="reaction">
-                <img class="circletag" src="https://pbs.twimg.com/media/DNpMJktWsAArjGS.png" class="reaction">
-                <img class="circletag" src="http://i0.kym-cdn.com/entries/icons/original/000/000/142/feelsgoodman.png" class="reaction">
-                <span id= "reactionCount"> 143</span>
-            </div>
-
-
-
-            <!-- viewing history streams -->
-            <div id="middleContent" class="card">
-              <header class="card-header">
-                <div class="card-header-title" >
-                  <div class="media-content">
-                    <p id="streamerTextPost">Because of your viewing history</p>
+                  <!-- streams recommended based on your history  -->
+                  <div id="middleContent" class="card">
+                     <header class="card-header">
+                        <div class="card-header-title" >
+                           <div class="media-content">
+                              <p id="streamerTextPost">Because of your viewing history</p>
+                           </div>
+                        </div>
+                     </header>
+                     <!-- preview image of the stream -->
+                     <div id='streamPreview' class="card-content">
+                        <img id='streamPreview' src="http://allaboutwindowsphone.com/images/flow/twitch/twitch3.jpg" alt="">
+                     </div>
+                     <img id="streamerImage" class="recStreamDetail" src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300" alt="">
+                     <div class="media-content">
+                        <!-- Streamer's logo, name, title of stream, and game they are playing -->
+                        <p class="title is-5" id="streamerTextPost">Streamer Name</p>
+                        <p class="title is-5" id="streamerTextPost">Stream Title</p>
+                        <p class="subtitle is-5" id="streamerTextPost">Game Plays</p>
+                     </div>
                   </div>
-                </div>
-              </header>
-              <div id='streamPreview' class="card-content">
-                <img id='streamPreview' src="http://allaboutwindowsphone.com/images/flow/twitch/twitch3.jpg" alt="">
-              </div>
-              <img id="streamerImage" class="recStreamDetail" src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300" alt="">
-              <div class="media-content">
-                <p class="title is-5" id="streamerTextPost">Streamer Name</p>
-                <p class="title is-5" id="streamerTextPost">Stream Title</p>
-                <p class="subtitle is-5" id="streamerTextPost">Game Plays</p>
-              </div>
-
-            </div>
-          </div>
-          <div id="rightCont" class="column is-7 linked-scrollbar-fixed">
-            <div class="card">
-              <header class="card-header">
-                <div class="card-header-title" >
-                  <div class="media-content">
-                    <p class="subtitle is-6" id="streamerTextPost">Featured Boradcasters</p>
+               </div>
+               <div id="rightCont" class="column is-7 linked-scrollbar-fixed">
+                  <div class="card">
+                     <header class="card-header">
+                        <div class="card-header-title" >
+                           <div class="media-content">
+                              <p class="subtitle is-6" id="streamerTextPost">Featured Boradcasters</p>
+                           </div>
+                        </div>
+                     </header>
+                     <!-- stream preview of the featured stream -->
+                     <div id='streamPreview' class="card-content">
+                        <img id='streamPreview' src="https://cdn.strexm.tv/includes/assets/images/figures/modular.gif" alt="">
+                     </div>
+                     <img id="streamerImage" class="recStreamDetail" src="https://static-cdn.jtvnw.net/jtv_user_pictures/cutedog_-profile_image-72976cbe312ba0af-70x70.png" alt="">
+                     <div class="media-content">
+                        <!-- the streamers name, title, and description with a follow button on the side -->
+                        <div class="follow">
+                           <button type="button" name="button" id"followbutn" >Follow</button>
+                        </div>
+                        <p class="title is-5" id="streamerTextPost">Streamer Name</p>
+                        <p class="title is-5" id="streamerTextPost">Stream Title</p>
+                     </div>
+                     <div id="desMargins" class="subtitle is-6">
+                        This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description.
+                     </div>
                   </div>
-                </div>
-              </header>
-              <div id='streamPreview' class="card-content">
-                <img id='streamPreview' src="https://cdn.strexm.tv/includes/assets/images/figures/modular.gif" alt="">
-              </div>
-              <img id="streamerImage" class="recStreamDetail" src="https://static-cdn.jtvnw.net/jtv_user_pictures/cutedog_-profile_image-72976cbe312ba0af-70x70.png" alt="">
-              <div class="media-content">
-                <div class="follow">
-                  <button type="button" name="button" id"followbutn" >Follow</button>
-                </div>
-                <p class="title is-5" id="streamerTextPost">Streamer Name</p>
-                <p class="title is-5" id="streamerTextPost">Stream Title</p>
-
-              </div>
-              <div id="desMargins" class="subtitle is-6">
-                This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description.
-              </div>
-
+                  <div class="card" id="streamRecPreview">
+                     <div class="columns is-mobile is-3 ">
+                        <!-- a preview of multiple streams the user can quickly look through -->
+                        <div class="column streamSlideshow" >
+                           <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
+                        </div>
+                        <div class="column streamSlideshow">
+                           <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
+                        </div>
+                        <div class="column streamSlideshow">
+                           <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
+                        </div>
+                        <div class="column streamSlideshow">
+                           <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
+                        </div>
+                        <div class="column streamSlideshow">
+                           <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-
-          <div class="card" id="streamRecPreview">
-              <div class="columns is-mobile is-3 ">
-                <div class="column streamSlideshow" >
-                  <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                </div>
-                <div class="column streamSlideshow">
-                  <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                </div>
-                <div class="column streamSlideshow">
-                  <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                </div>
-                <div class="column streamSlideshow">
-                  <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                </div>
-                <div class="column streamSlideshow">
-                  <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                </div>
-              </div>
-            </div>
-
-            <!-- follower posts -->
-          </div>
-
-          </div>
-        </div>
-
-
-
+         </div>
       </div>
    </body>
 </html>
