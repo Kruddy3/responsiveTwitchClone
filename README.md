@@ -1,15 +1,20 @@
-# <span style="color: #3a2e5b"> Responsive Twitch Clone </span>
+# Responsive Twitch Clone
 
 A practice exercise to showcase the following design features:
-* Responsive page
-* Grid design
+* Desktop, mobile, and tablet friendly
+* 12 column grid layout
 * SASS theming
 * Semantic Markup
 
 
 <img src="https://i.imgur.com/LDuwqC3.jpg" alt="Current Website" style="max-width:100%;" width="600" height="315">
 
-## <span style="color: #3a2e5b">Current to do list</span>
+# Technologies used
+* [BULMA](https://bulma.io/) for grid design
+* [Jquery](https://jquery.com/) for DOM manipulation
+* [SASS](http://sass-lang.com/) for css theming and control
+
+## Current to do list
 
 * Make jquery plugin for stream slideshow
 * add right side to nav bar
