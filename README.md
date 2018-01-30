@@ -1,4 +1,4 @@
-# Responsive Twitch Clone
+# <span style="color: #3a2e5b"> Responsive Twitch Clone </span>
 
 A practice exercise to showcase the following design features:
 * Responsive page
@@ -9,7 +9,7 @@ A practice exercise to showcase the following design features:
 
 <img src="https://i.imgur.com/LDuwqC3.jpg" alt="Current Website" style="max-width:100%;" width="600" height="315">
 
-## Current to do list
+## <span style="color: #3a2e5b">Current to do list</span>
 
 * Make jquery plugin for stream slideshow
 * add right side to nav bar
