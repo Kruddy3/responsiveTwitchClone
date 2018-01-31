@@ -18,46 +18,50 @@ $pink-invert: #fff;
 $family-sans-serif: "Helvetica", "Arial", sans-serif;
 
 
+// light theme
 
-$body-background-color: #faf9fa;
-$card-background-color: #fff;
-$card-color: #fff;
-$title-color: #000;
-$subtitle-color: #000;
-$navbar-item-color: #dad8de;
-$navbar-background-color: #3a2e5b;
-$media-content-color: #dad8de;
-#leftCol{
-  background-color: #17141f;
-}
-#streamerTextPost{
-  color:#000;
-}
-#input{
-  background-color: #fff;
-  border: 1px solid #392e5c;
-  color: #000;
-}
-#streamerLeftNavName{
-  color: #fff;
-}
-// $body-background-color: #17141f;
-// $card-background-color: #201c2b;
-// $card-color: #dad8de;
-// $title-color: #dad8de;
-// $subtitle-color: #dad8de;
+// $body-background-color: #faf9fa;
+// $card-background-color: #fff;
+// $card-color: #fff;
+// $title-color: #000;
+// $subtitle-color: #000;
 // $navbar-item-color: #dad8de;
 // $navbar-background-color: #3a2e5b;
 // $media-content-color: #dad8de;
-//
+// #leftCol{
+//   background-color: #17141f;
+// }
 // #streamerTextPost{
-//   color:#dad8de;
+//   color:#000;
 // }
 // #input{
-//   background-color: #0e0c13;
+//   background-color: #fff;
 //   border: 1px solid #392e5c;
-//   color: #dad8de;
+//   color: #000;
 // }
+// #streamerLeftNavName{
+//   color: #fff;
+// }
+
+// dark theme
+
+$body-background-color: #17141f;
+$card-background-color: #201c2b;
+$card-color: #dad8de;
+$title-color: #dad8de;
+$subtitle-color: #dad8de;
+$navbar-item-color: #dad8de;
+$navbar-background-color: #3a2e5b;
+$media-content-color: #dad8de;
+
+#streamerTextPost{
+  color:#dad8de;
+}
+#input{
+  background-color: #0e0c13;
+  border: 1px solid #392e5c;
+  color: #dad8de;
+}
 
 button{
   background-color: #3a2e5b;

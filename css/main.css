@@ -1,16 +1,10 @@
-#leftCol {
-  background-color: #17141f; }
-
 #streamerTextPost {
-  color: #000; }
+  color: #dad8de; }
 
 #input {
-  background-color: #fff;
+  background-color: #0e0c13;
   border: 1px solid #392e5c;
-  color: #000; }
-
-#streamerLeftNavName {
-  color: #fff; }
+  color: #dad8de; }
 
 button {
   background-color: #3a2e5b;
@@ -102,7 +96,7 @@ th {
   text-align: left; }
 
 html {
-  background-color: #faf9fa;
+  background-color: #17141f;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -3276,7 +3270,7 @@ a.tag:hover {
     vertical-align: middle; }
 
 .title {
-  color: #000;
+  color: #dad8de;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }
@@ -3303,7 +3297,7 @@ a.tag:hover {
     font-size: 0.75rem; }
 
 .subtitle {
-  color: #000;
+  color: #dad8de;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25; }
@@ -3504,9 +3498,9 @@ a.tag:hover {
     content: "\0227B"; }
 
 .card {
-  background-color: #fff;
+  background-color: #201c2b;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: #fff;
+  color: #dad8de;
   max-width: 100%;
   position: relative; }
 
