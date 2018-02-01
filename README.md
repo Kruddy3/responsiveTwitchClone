@@ -1,5 +1,7 @@
 # Responsive Twitch Clone
 
+[Showcase website](https://thestraded.github.io/responsiveTwitchClone/)  
+
 A practice exercise to showcase the following design features:
 * Desktop, mobile, and tablet friendly
 * 12 column grid layout
