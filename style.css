@@ -11,11 +11,16 @@
         width: 239px;
     }
 }
+.slider{
+  margin-top:5px;
+}
 .slider ul li{
   float: left;
   display:inline-block;
 }
-
+#streamRecPreview{
+  overflow: hidden;
+}
 li img{
   margin: 0;
   padding: 0;
