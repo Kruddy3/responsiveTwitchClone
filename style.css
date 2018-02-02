@@ -11,6 +11,9 @@
         width: 239px;
     }
 }
+.lastItem{
+  width: 240px;
+}
 .slider{
   margin-top:5px;
 }
@@ -61,6 +64,11 @@ html, body {
 .follow{
   position: absolute;
   right: 5px;
+}
+.downArrow{
+  position: absolute;
+  right: 30px;
+  top: 15px;
 }
 #navbarContainer {
   /*position: fixed;*/
