@@ -18,9 +18,9 @@ A practice exercise to showcase the following design features:
 * [BULMA](https://bulma.io/) for grid design
 * [Jquery](https://jquery.com/) for DOM manipulation
 * [SASS](http://sass-lang.com/) for css theming and control
+* [My Jquery Plugin](https://github.com/thestraded/superSlider) to make the image slideshow
 
 ## Current to do list
 
-* Make jquery plugin for stream slideshow
 * add right side to nav bar
 * fill in left nav bar

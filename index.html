@@ -8,7 +8,6 @@
       <link rel="stylesheet" href="./style.css">
       <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script type="text/javascript" src="./index.js"></script>
    </head>
    <body>
       <!-- start of top nav bar -->
@@ -127,24 +126,25 @@
                         This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description.
                      </div>
                   </div>
+
                   <div class="card" id="streamRecPreview">
-                     <div class="columns is-mobile is-3 ">
-                        <!-- a preview of multiple streams the user can quickly look through -->
-                        <div class="column streamSlideshow" >
-                           <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                        </div>
-                        <div class="column streamSlideshow">
-                           <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                        </div>
-                        <div class="column streamSlideshow">
-                           <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                        </div>
-                        <div class="column streamSlideshow">
-                           <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                        </div>
-                        <div class="column streamSlideshow">
-                           <img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg">
-                        </div>
+                       <!-- a preview of multiple streams the user can quickly look through -->
+                       <div class="slider">
+                         <button class="super-left"><</button>
+                         <ul id="my-ul">
+                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                        </ul>
+                        <button class="super-right">></button>
                      </div>
                   </div>
                </div>
@@ -152,4 +152,5 @@
          </div>
       </div>
    </body>
+   <script type="text/javascript" src="./index.js"></script>
 </html>

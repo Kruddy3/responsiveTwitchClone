@@ -11,6 +11,27 @@
         width: 239px;
     }
 }
+.slider ul li{
+  float: left;
+  display:inline-block;
+}
+
+li img{
+  margin: 0;
+  padding: 0;
+}
+.super-left{
+  float:left;
+  width: 20px;
+  padding: 0;
+}
+.super-right{
+  float: right;
+  width: 20px;
+  padding: 0;
+
+}
+
 #leftCol{
   height: 100%;
 }
