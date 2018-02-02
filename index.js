@@ -35,8 +35,6 @@ $(function(){
         $("li img").css("height","100%")
         var buttonHeight = $("li").height()-5;
         $(".slider button").css("height",buttonHeight)
-
-        console.log("window resize");
       });
 
       var totalElements = $(this).children("ul").children("li").length

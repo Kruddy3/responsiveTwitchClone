@@ -6,13 +6,22 @@
       display: none;
     }
 }
+@media only screen and (max-width: 1023px) {
+    .rightNavHide {
+      display: none !important;
+    }
+}
+
+
 @media only screen and (min-width: 1201px) {
     #leftCol {
         width: 239px;
     }
 }
+
 .lastItem{
   width: 240px;
+  z-index: 3;
 }
 .slider{
   margin-top:5px;
@@ -61,6 +70,10 @@ html, body {
 ::-webkit-scrollbar{
    display: none;  // Safari and Chrome
 }
+.leftNavShow{
+  z-index: 2;
+}
+
 .follow{
   position: absolute;
   right: 5px;
