@@ -73,8 +73,8 @@ html, body {
         width: 239px;
     }
 }
-.dropdown-content{
-  border: 1px red;
+.primeIndex{
+  z-index: -1;
 }
 .lastItem{
   width: 240px;
@@ -137,7 +137,7 @@ html, body {
    display: none;  // Safari and Chrome
 }
 .leftNavShow{
-  z-index: 2;
+  /*z-index: 2;*/
   background-color: #3a2e5b;
 }
 
