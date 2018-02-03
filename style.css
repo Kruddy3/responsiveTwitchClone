@@ -12,16 +12,29 @@
     }
 }
 
+.userInfo{
+  margin-left: 5px;
+}
 
 @media only screen and (min-width: 1201px) {
     #leftCol {
         width: 239px;
     }
 }
-
+.dropdown-content{
+  border: 1px red;
+}
 .lastItem{
   width: 240px;
   z-index: 3;
+  padding: 0;
+  margin-top: 1px;
+}
+#drpDown{
+  padding: 0;
+}
+.userInfoWidth{
+  width:100%
 }
 .slider{
   margin-top:5px;
@@ -81,7 +94,7 @@ html, body {
 .downArrow{
   position: absolute;
   right: 30px;
-  top: 15px;
+  top: 5px;
 }
 #navbarContainer {
   /*position: fixed;*/

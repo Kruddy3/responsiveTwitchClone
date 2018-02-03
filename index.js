@@ -1,5 +1,6 @@
 $(function(){
 
+
   $('.linked-scrollbar-fixed').attr("data-scrolling", "false");
 
   $('.linked-scrollbar-fixed').scroll(function(){
