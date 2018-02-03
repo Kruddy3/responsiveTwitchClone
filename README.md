@@ -19,8 +19,3 @@ A practice exercise to showcase the following design features:
 * [Jquery](https://jquery.com/) for DOM manipulation
 * [SASS](http://sass-lang.com/) for css theming and control
 * [My Jquery Plugin](https://github.com/thestraded/superSlider) to make the image slideshow
-
-## Current to do list
-
-* add right side to nav bar
-* fill in left nav bar
