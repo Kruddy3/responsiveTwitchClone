@@ -2,6 +2,9 @@
     #leftCol {
         width: 49px;
     }
+    .leftSearch{
+      display: none;
+    }
     .posterName{
       display: none;
     }
@@ -74,6 +77,7 @@ li img{
     display: inline;
     width: 40;
     height: 40px;
+
 }
 
 html, body {
@@ -168,7 +172,19 @@ html, body {
 }
 
 
+.followingStreamer{
+  overflow: hidden;
+/* height: 100%; */
+display: flex;
+align-items: center;
+margin-top: 5px;
+}
+.leftSearch{
+  position: fixed;
+  bottom: 5px;
+  width: 236px;
 
+}
 #desMargins{
   margin-left: 8px;
   margin-bottom: 10px
@@ -182,6 +198,12 @@ html, body {
 #streamerImage{
   max-width: 40px;
   max-height: 40px;
+}
+#streamerLeftNavName{
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  white-space: nowrap;
 }
 #wrapper{
   max-width:100%;
