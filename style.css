@@ -17,7 +17,36 @@
       display: none !important;
     }
 }
+.postSomethingInput{
+  height: 72px;
+  margin-top: 5px;
+  width: 100%;
 
+}
+.optionsImage{
+  width: 24px;
+  height: 24px;
+  float: right;
+  margin-bottom: 5px;
+  margin-right: 55px;
+}
+.postBtn{
+  margin-bottom: 5px;
+  float: right;
+  display: inline-block;
+  position: relative;
+  bottom: 10;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.postSomething{
+  overflow:auto;
+  padding-right: 7px;
+  padding-left: 7px;
+}
 .friendText{
   text-align: center;
 }
