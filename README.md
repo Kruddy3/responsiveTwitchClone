@@ -9,10 +9,10 @@ A practice exercise to showcase the following design features:
 * Semantic Markup
 
 # Dark Theme using SASS
-<img src="https://i.imgur.com/LDuwqC3.jpg" alt="Current Website" style="max-width:100%;" width="600" height="315">
+<img src="https://i.imgur.com/bVLs429.jpg" alt="Current Website" style="max-width:100%;" width="600" height="315">
 
 # Light Theme using SASS
-<img src="https://i.imgur.com/KrCyFCI.jpg" alt="Current Website" style="max-width:100%;" width="600" height="315">
+<img src="https://i.imgur.com/1WC0BRD.jpg" alt="Current Website" style="max-width:100%;" width="600" height="315">
 
 # Technologies used
 * [BULMA](https://bulma.io/) for grid design

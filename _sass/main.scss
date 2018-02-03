@@ -42,6 +42,12 @@ $family-sans-serif: "Helvetica", "Arial", sans-serif;
 // #streamerLeftNavName{
 //   color: #fff;
 // }
+// #sidTextPost{
+//   color: #fff !important;
+// }
+// #dropdown-content{
+//   color: #fff !important;
+// }
 
 // dark theme
 
@@ -53,6 +59,16 @@ $subtitle-color: #dad8de;
 $navbar-item-color: #dad8de;
 $navbar-background-color: #3a2e5b;
 $media-content-color: #dad8de;
+
+#streamerTextPost{
+  color:#dad8de;
+}
+#input{
+  background-color: #0e0c13;
+  border: 1px solid #392e5c;
+  color: #dad8de;
+}
+
 #hr{
   color:#3a2e5b;
   background-color: #3a2e5b;
@@ -67,15 +83,6 @@ $media-content-color: #dad8de;
   background-color: #201c2b;
   color: #dad8de;
 }
-#streamerTextPost{
-  color:#dad8de;
-}
-#input{
-  background-color: #0e0c13;
-  border: 1px solid #392e5c;
-  color: #dad8de;
-}
-
 button{
   background-color: #3a2e5b;
   border: none;
