@@ -17,6 +17,9 @@
       display: none !important;
     }
 }
+@media only screen and (max-width: 768px) {
+
+}
 .postSomethingInput{
   height: 72px;
   margin-top: 5px;
@@ -42,20 +45,7 @@
   padding-right: 10px;
 
 }
-#rightCont{
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  overflow-y: scroll;
-  height: 100%;
-}
-#leftCont{
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  overflow-y: scroll;
-  height: 100%;
-}
+
 .postSomething{
   overflow:auto;
   padding-right: 7px;
