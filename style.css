@@ -183,13 +183,20 @@ html, body {
   padding: 0;
 }
 .recStreamDetail{
-  margin: 8px;
+  margin: 5px;
 }
 .column.is-10{
   max-width: 100%;
   overflow: scroll;
 }
+.card-header-title{
+  padding-left: 5px;
+}
+.userProfile{
+  position: relative;
+  top: -3px;
 
+}
 
 /*need to test if these are still needed*/
 .column.is-5::-webkit-scrollbar{
@@ -276,6 +283,7 @@ margin-top: 5px;
 
 .media-content{
   display: inline-block;
+  margin-left: 1px;
 }
 
 .reaction {
