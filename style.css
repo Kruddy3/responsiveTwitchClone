@@ -20,6 +20,11 @@
 @media only screen and (max-width: 768px) {
 
 }
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 .postSomethingInput{
   height: 72px;
   margin-top: 5px;
@@ -149,7 +154,10 @@ html, body {
   height: 52px;
   width: 100%;
 }
-
+.navbar-end{
+  background-color: #3a2e5b;
+  display: inherit;
+}
 
 .contentBox{
   position: fixed;
