@@ -43,7 +43,18 @@
 
 }
 #rightCont{
+  position: -webkit-sticky; /* Safari */
   position: sticky;
+  top: 0;
+  overflow-y: scroll;
+  height: 100%;
+}
+#leftCont{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  overflow-y: scroll;
+  height: 100%;
 }
 .postSomething{
   overflow:auto;
@@ -168,6 +179,9 @@ html, body {
 #twoContContainer{
   margin-right: 0;
   overflow: auto;
+}
+.totalCont{
+  overflow-y: scroll;
 }
 .column{
   padding: 0;

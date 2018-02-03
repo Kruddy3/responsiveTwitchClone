@@ -262,7 +262,7 @@
             </p>
          </div>
          <!-- this column takes up the remainding space that the side nav isnt -->
-         <div class="column">
+         <div class="column totalCont">
             <!-- within the column there will be two content columns -->
             <div id ="twoContContainer" class="columns">
                <div id="leftCont" class="column is-5 linked-scrollbar-fixed">
@@ -411,53 +411,101 @@
                  </div>
                </div>
                <div id="rightCont" class="column is-7 linked-scrollbar-fixed">
-                  <div class="card">
-                     <header class="card-header">
-                        <div class="card-header-title" >
-                           <div class="media-content">
-                              <p class="subtitle is-6" id="streamerTextPost">Featured Broadcasters</p>
-                           </div>
-                        </div>
-                     </header>
-                     <!-- stream preview of the featured stream -->
-                     <div id='streamPreview' class="card-content">
-                        <img id='streamPreview' src="https://cdn.strexm.tv/includes/assets/images/figures/modular.gif" alt="">
-                     </div>
-                     <img id="streamerImage" class="recStreamDetail" src="https://static-cdn.jtvnw.net/jtv_user_pictures/cutedog_-profile_image-72976cbe312ba0af-70x70.png" alt="">
-                     <div class="media-content">
-                        <!-- the streamers name, title, and description with a follow button on the side -->
-                        <div class="follow">
-                           <button type="button" name="button" id"followbutn" >Follow</button>
-                        </div>
-                        <p class="title is-5" id="streamerTextPost">Streamer Name</p>
-                        <p class="title is-5" id="streamerTextPost">Stream Title</p>
-                     </div>
-                     <div id="desMargins" class="subtitle is-6">
-                        This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description.
-                     </div>
-                  </div>
+                 <div class="card">
+                    <header class="card-header">
+                       <div class="card-header-title" >
+                          <div class="media-content">
+                             <p class="subtitle is-6" id="streamerTextPost">Featured Broadcasters</p>
+                          </div>
+                       </div>
+                    </header>
+                    <!-- stream preview of the featured stream -->
+                    <div id='streamPreview' class="card-content">
+                       <img id='streamPreview' src="https://cdn.strexm.tv/includes/assets/images/figures/modular.gif" alt="">
+                    </div>
+                    <img id="streamerImage" class="recStreamDetail" src="https://static-cdn.jtvnw.net/jtv_user_pictures/cutedog_-profile_image-72976cbe312ba0af-70x70.png" alt="">
+                    <div class="media-content">
+                       <!-- the streamers name, title, and description with a follow button on the side -->
+                       <div class="follow">
+                          <button type="button" name="button" id"followbutn" >Follow</button>
+                       </div>
+                       <p class="title is-5" id="streamerTextPost">Streamer Name</p>
+                       <p class="title is-5" id="streamerTextPost">Stream Title</p>
+                    </div>
+                    <div id="desMargins" class="subtitle is-6">
+                       This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description.
+                    </div>
+                 </div>
 
-                  <div class="card" id="streamRecPreview">
-                       <!-- a preview of multiple streams the user can quickly look through -->
-                       <div class="slider">
-                         <button class="super-left"><</button>
-                         <ul id="my-ul">
-                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
-                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
-                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
-                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
-                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
-                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
-                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
-                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
-                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
-                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
-                           <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
-                        </ul>
-                        <button class="super-right">></button>
-                     </div>
-                  </div>
-               </div>
+                 <div class="card" id="streamRecPreview">
+                      <!-- a preview of multiple streams the user can quickly look through -->
+                      <div class="slider">
+                        <button class="super-left"><</button>
+                        <ul id="my-ul">
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                       </ul>
+                       <button class="super-right">></button>
+                    </div>
+                 </div>
+                 <div class="card">
+                    <header class="card-header">
+                       <div class="card-header-title" >
+                          <div class="media-content">
+                             <p class="subtitle is-6" id="streamerTextPost">Featured Broadcasters</p>
+                          </div>
+                       </div>
+                    </header>
+                    <!-- stream preview of the featured stream -->
+                    <div id='streamPreview' class="card-content">
+                       <img id='streamPreview' src="https://cdn.strexm.tv/includes/assets/images/figures/modular.gif" alt="">
+                    </div>
+                    <img id="streamerImage" class="recStreamDetail" src="https://static-cdn.jtvnw.net/jtv_user_pictures/cutedog_-profile_image-72976cbe312ba0af-70x70.png" alt="">
+                    <div class="media-content">
+                       <!-- the streamers name, title, and description with a follow button on the side -->
+                       <div class="follow">
+                          <button type="button" name="button" id"followbutn" >Follow</button>
+                       </div>
+                       <p class="title is-5" id="streamerTextPost">Streamer Name</p>
+                       <p class="title is-5" id="streamerTextPost">Stream Title</p>
+                    </div>
+                    <div id="desMargins" class="subtitle is-6">
+                       This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description. This is the channel description.
+                    </div>
+                 </div>
+
+                 <div class="card" id="streamRecPreview">
+                      <!-- a preview of multiple streams the user can quickly look through -->
+                      <div class="slider">
+                        <button class="super-left"><</button>
+                        <ul id="my-ul">
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                          <li> <div class="column"><img src="https://i.ytimg.com/vi/QwwT-PJFRZQ/maxresdefault.jpg"> </div> </li>
+                       </ul>
+                       <button class="super-right">></button>
+                    </div>
+                 </div>
+                 </div>
+              </div>
+
             </div>
          </div>
       </div>
