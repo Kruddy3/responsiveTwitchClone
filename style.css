@@ -11,6 +11,9 @@
     .leftNavHide{
       display: none
     }
+    .primeIndex{
+      z-index: -1;
+    }
 }
 @media only screen and (max-width: 1023px) {
     .rightNavHide {
@@ -73,9 +76,7 @@ html, body {
         width: 239px;
     }
 }
-.primeIndex{
-  z-index: -1;
-}
+
 .lastItem{
   width: 240px;
   z-index: 3;
