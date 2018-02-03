@@ -138,6 +138,7 @@ html, body {
 }
 .leftNavShow{
   z-index: 2;
+  background-color: #3a2e5b;
 }
 
 .follow{
